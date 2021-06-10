@@ -1,0 +1,41 @@
+.button-sort {
+  background-color: var(--backcolor);
+  border: var(--forecolor) 1px solid;
+  color: var(--forecolor);
+  margin-left: .5rem;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.05rem;
+  vertical-align: super;
+}
+
+.button-sort:hover {
+  background-color: var(--textback);  
+}
+
+.sort-body {
+  margin: 0;
+}
+
+.sort-up{
+  background-image: url("../../assets/up.svg");
+  background-position: 0;
+  background-repeat: no-repeat;
+}
+.sort-up:hover{
+  background-image: url("../../assets/up-white.svg");
+  background-position: 0;
+  background-repeat: no-repeat;
+}
+
+.sort-down{
+  background-image: url("../../assets/down.svg");
+  background-position: 0;
+  background-repeat: no-repeat;
+}
+.sort-down:hover{
+  background-image: url("../../assets/down-white.svg");
+  background-position: 0;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,35 @@
+.project-header {
+  margin: 0 auto;
+  display: grid;
+  background-color: var(--forecolor);;
+  color: var(--backcolor);;
+  font-weight: bold;
+  margin: 0.5rem;
+  border: var(--main) solid 1px;
+  position: sticky;
+  top: 0;
+}
+
+.project-header .project-cell{
+  padding-left:.5rem;
+}
+
+@media (max-width: 599px) {
+  .project-header {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .project-header {
+    grid-template-columns: repeat(4, 1fr);
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .project-header {
+    grid-template-columns: repeat(8, 1fr);
+    display: grid;
+  }
+}
